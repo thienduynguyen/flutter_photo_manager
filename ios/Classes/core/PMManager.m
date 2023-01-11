@@ -635,7 +635,7 @@
             } else {
                 outputFileType = AVFileTypeMPEG4;
             }
-            exportSession.outputFileType = AVFileType.mov;
+            exportSession.outputFileType = AVFileTypeMPEG4;
             exportSession.outputURL = destination;
             [exportSession exportAsynchronouslyWithCompletionHandler:^{
                 if (exportSession.status == AVAssetExportSessionStatusCompleted) {
